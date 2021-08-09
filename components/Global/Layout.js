@@ -1,14 +1,9 @@
 import PropTypes from 'prop-types'
-import styled from 'styled-components';
-
-const Header = styled("header")`
-    padding: 200px;
-
-`;
+import { SiteNav } from './Nav'
 export const Layout = ({children}) => {
     return(
         <>
-            <Header>Hello world</Header>
+            <SiteNav />
             {children}
         
 
