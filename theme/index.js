@@ -35,4 +35,7 @@ export const GlobalStyle = createGlobalStyle`
     label {
         color: ${({theme}) => theme.colors.title};
     }
+    .logo {
+        font-size:24px;fill:#5db6a6;font-family:Overpass-ExtraLightItalic, Overpass;font-weight:200;font-style:italic;
+    }
 `;

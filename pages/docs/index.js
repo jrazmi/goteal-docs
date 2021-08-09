@@ -1,14 +1,13 @@
-import Link from 'next/link'
-export default function About() {
+import { useRouter } from 'next/dist/client/router'
+import { Layout } from '../../components/Global/Layout';
+
+export default function DocPage() {
+    const router = useRouter();
+    const { docName } = router.query;
   return (
-    <div>
-      <div>About us</div>
-      <div>
-        Back to{' '}
-        <Link href="/" as={process.env.BACKEND_URL + '/'}>
-          <a>Home</a>
-        </Link>
-      </div>
-    </div>
+    <Layout>
+      <h1>{docName}</h1>
+      
+    </Layout>
   )
 }

@@ -1,14 +1,9 @@
 import Link from 'next/link'
+import { Layout } from '../components/Global/Layout'
 export default function About() {
   return (
-    <div>
-      <div>About us</div>
-      <div>
-        Back to{' '}
-        <Link href="/" as={process.env.BACKEND_URL + '/'}>
-          <a>Home</a>
-        </Link>
-      </div>
-    </div>
+    <Layout>
+       <h1> About us</h1>
+    </Layout>
   )
 }
