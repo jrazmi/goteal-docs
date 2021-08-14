@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/goteal-docs/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/goteal-docs/static/js/main.a8c8d847.chunk.js",
+    "main.js.map": "/goteal-docs/static/js/main.a8c8d847.chunk.js.map",
+    "runtime-main.js": "/goteal-docs/static/js/runtime-main.994c3962.js",
+    "runtime-main.js.map": "/goteal-docs/static/js/runtime-main.994c3962.js.map",
+    "static/js/2.8c23f967.chunk.js": "/goteal-docs/static/js/2.8c23f967.chunk.js",
+    "static/js/2.8c23f967.chunk.js.map": "/goteal-docs/static/js/2.8c23f967.chunk.js.map",
+    "static/js/3.9f73f460.chunk.js": "/goteal-docs/static/js/3.9f73f460.chunk.js",
+    "static/js/3.9f73f460.chunk.js.map": "/goteal-docs/static/js/3.9f73f460.chunk.js.map",
+    "index.html": "/goteal-docs/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/goteal-docs/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.8c23f967.chunk.js.LICENSE.txt": "/goteal-docs/static/js/2.8c23f967.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/goteal-docs/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.994c3962.js",
+    "static/js/2.8c23f967.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a8c8d847.chunk.js"
+  ]
+}
