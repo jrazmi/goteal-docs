@@ -1,4 +1,5 @@
 import {  Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 export const Layout = ({children}) => {
     return(
@@ -17,6 +18,7 @@ export const Layout = ({children}) => {
               </ul>
         </header>
         <main>
+      
             {children}
         </main>
         <footer>
