@@ -8,7 +8,10 @@ export const Home = () => {
         exit={{ scaleY: 0 }}
         transition={{ duration: 0.5 }}
       >
-            hi
+            I'm a bunch of content
+
+            <p>yep</p>
+            <p>nope</p>
         </motion.div>
     )
 }
