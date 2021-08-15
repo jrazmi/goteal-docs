@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/goteal-docs/static/js/main.636f49f6.chunk.js",
-    "main.js.map": "/goteal-docs/static/js/main.636f49f6.chunk.js.map",
+    "main.js": "/goteal-docs/static/js/main.d04ef13b.chunk.js",
+    "main.js.map": "/goteal-docs/static/js/main.d04ef13b.chunk.js.map",
     "runtime-main.js": "/goteal-docs/static/js/runtime-main.944dd3f5.js",
     "runtime-main.js.map": "/goteal-docs/static/js/runtime-main.944dd3f5.js.map",
-    "static/js/2.170dd9f1.chunk.js": "/goteal-docs/static/js/2.170dd9f1.chunk.js",
-    "static/js/2.170dd9f1.chunk.js.map": "/goteal-docs/static/js/2.170dd9f1.chunk.js.map",
+    "static/js/2.fd31d78e.chunk.js": "/goteal-docs/static/js/2.fd31d78e.chunk.js",
+    "static/js/2.fd31d78e.chunk.js.map": "/goteal-docs/static/js/2.fd31d78e.chunk.js.map",
     "index.html": "/goteal-docs/index.html",
-    "static/js/2.170dd9f1.chunk.js.LICENSE.txt": "/goteal-docs/static/js/2.170dd9f1.chunk.js.LICENSE.txt"
+    "static/js/2.fd31d78e.chunk.js.LICENSE.txt": "/goteal-docs/static/js/2.fd31d78e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.944dd3f5.js",
-    "static/js/2.170dd9f1.chunk.js",
-    "static/js/main.636f49f6.chunk.js"
+    "static/js/2.fd31d78e.chunk.js",
+    "static/js/main.d04ef13b.chunk.js"
   ]
 }
