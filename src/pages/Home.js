@@ -1,17 +1,23 @@
 import { motion } from "framer-motion"
+import { Container, Row, Col } from "react-bootstrap"
+import { pageTransition } from '../components/animations'
 
 export const Home = () => {
     return(
-        <motion.div
-        initial={{ scaleY: 0 }}
-        animate={{ scaleY: 1 }}
-        exit={{ scaleY: 0 }}
-        transition={{ duration: 0.5 }}
-      >
-            I'm a bunch of content
+    
+           <Container>
+               <Row className="justify-content-center my-5">
+                   <Col md={8}>
+                        <motion.div
+                            {...pageTransition}
+                            >
+                        <h1> Welcome to goteal</h1>
+                        <p>goteal exists to simplify the process of authoring and testing Algorand Smart Contracts for people that are familiar with the Go programming language.</p>
 
-            <p>yep</p>
-            <p>nope</p>
-        </motion.div>
+<p>Those familiar with Go know that the language and surrounding ecosystem offers many helpful tools. goteal exists to bridge the Go ecosystem with the Algorand Smart Contract ecosystem.</p>
+                        </motion.div>
+                   </Col>
+               </Row>
+           </Container>
     )
 }

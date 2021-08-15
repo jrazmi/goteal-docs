@@ -7,6 +7,7 @@ export const DarkTheme = {
         body: "#171717",
         title: "#5db6a6",
         font: "#ecf0f1",
+        off: "#383838"
     }
 }
 
@@ -14,7 +15,8 @@ export const LightTheme = {
     colors: {
         body: "#ecf0f1",
         title: "#5db6a6",
-        font: "#171717"
+        font: "#171717",
+        off: "#F7F7F7"
     }
 }
 
@@ -29,6 +31,8 @@ export const GlobalStyle = createGlobalStyle`
         color: ${({theme}) => theme.colors.font};
         font-family: Overpass, sans-serif;
         transition: all 0.25s linear;
+        font-size: 20px;
+        line-height: 1.45;
     }
     h1,
     h2,

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion"
 import { Container, Row, Col } from "react-bootstrap"
-import { pageTransition } from '../components/animations'
+import { pageTransition } from '../../components/animations'
 
-export const About = () => {
+export const Docs = () => {
     return(
     
            <Container>
@@ -11,8 +11,8 @@ export const About = () => {
                         <motion.div
                             {...pageTransition}
                             >
-                        <h1> About </h1>
-                        <p> probably don't need this page.....</p>
+                        <h1> Docs </h1>
+                        <p> Here's some documentation... </p>
                         </motion.div>
                    </Col>
                </Row>

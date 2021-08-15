@@ -1,20 +1,19 @@
 
-import { Main, MainNavBar } from "./styled";
+import { Main, MainNavBar, AppFooter } from "./styled";
 
-export const Layout = ({children, toggleTheme}) => {
+export const Layout = ({children}) => {
 
     return(
         <>
         <header>
-            <MainNavBar toggleTheme={toggleTheme} />
+            <MainNavBar  />
         </header>
         <Main>
-            
+
             {children}
         </Main>
-        <footer>
-            footer
-        </footer>
+        <AppFooter />
+           
         </>
     )
 }
