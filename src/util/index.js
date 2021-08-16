@@ -1,0 +1,1 @@
+export { DocsTree } from './DocsTree';

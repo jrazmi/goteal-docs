@@ -36,11 +36,16 @@ export const RoutedApp = () => {
                         <Route exact path="/">
                             <Pages.Home />
                         </Route>
+                      
+                        <Route path={`/docs/:parent/:file`} component={Pages.Doc} />
+
                         {
                             RouteMap.map((route, idx) => (
                                 <Route key={idx} path={route.path} component={route.component} />
                                 ))
                             }   
+
+
                     </Switch>
                 </Layout>
             </AnimatePresence>

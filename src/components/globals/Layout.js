@@ -8,8 +8,9 @@ export const Layout = ({children}) => {
         <header>
             <MainNavBar  />
         </header>
-        <Main>
 
+          
+        <Main>
             {children}
         </Main>
         <AppFooter />
